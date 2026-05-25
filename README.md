@@ -5,13 +5,11 @@ This directory contains a domain-specific text retrieval dataset for runway main
 - runway-queries.json: query set organized by anonymized IDs
 - runway-document.json: text/document set organized by anonymized IDs
 - train.csv, dev.csv, test.csv: triples of queries, related texts, and relevance labels for training, validation, and testing
-- runway_retrieval.py: example script for retrieval training and evaluation
+- runway_retrieval_test.py: example script for retrieval training and evaluation
 
 ## Dataset Scale
 - 766 queries
 - 1352 text/document entries
-- 80844 training triples
-- 10105 validation triples
 - 10105 test triples
 
 ## Notes
